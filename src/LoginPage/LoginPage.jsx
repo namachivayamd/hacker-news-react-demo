@@ -85,6 +85,9 @@ class LoginPage extends React.Component {
             <Link to="/register" className="btn btn-link">
               Register
             </Link>
+            <Link to="/home" className="btn btn-link">
+              Home
+            </Link>
           </div>
         </form>
       </div>

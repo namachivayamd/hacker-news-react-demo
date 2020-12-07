@@ -1,10 +1,17 @@
 {
   "name": "react-redux-registration-login-example",
+  "homepage": "http://namachivayamd.github.io/hacker-news-react-demo",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namachivayamd/hacker-news-react-demo"
+  },
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^2.13.10",
