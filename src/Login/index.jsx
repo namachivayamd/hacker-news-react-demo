@@ -58,7 +58,7 @@ class Login extends React.PureComponent {
             {/* <Banner isMobile={this.state.isMobile} /> */}
             {/* <Page1 isMobile={this.state.isMobile} /> */}
             {/* <Page2 /> */}
-            <Form
+            {/* <Form
               {...layout}
               name="basic"
               initialValues={{
@@ -100,7 +100,7 @@ class Login extends React.PureComponent {
                   Submit
                 </Button>
               </Form.Item>
-            </Form>
+            </Form> */}
           </div>
           {/* <Footer /> */}
         </div>
